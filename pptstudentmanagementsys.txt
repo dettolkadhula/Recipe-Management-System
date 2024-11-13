@@ -1,0 +1,41 @@
+Title Slide:
+
+Introduction to the Student Management System project.
+Mention that the project utilizes Python programming language and Object-Oriented Programming (OOP) principles.
+Highlight the key objectives of the presentation.
+Slide 1: Student Class:
+
+The Student class represents individual students in the system.
+Attributes include roll number, name, age, and a list of enrolled courses.
+Methods allow for adding/removing courses, updating age, and displaying student information.
+Encapsulation is achieved by encapsulating student data and behaviors within the class.
+Slide 2: Course Class:
+
+The Course class represents individual courses offered in the system.
+Attributes include course name and instructor.
+Methods could include functions related to course management (not explicitly defined in the current example).
+Encapsulation ensures that course data and behaviors are contained within the class.
+Slide 3: Function to Create Students:
+
+The create_students() function allows users to input student details interactively.
+Users are prompted to enter the number of students and their respective names and ages.
+The function creates instances of the Student class based on the provided input.
+Error handling could be added to validate user input for roll numbers, names, and ages.
+Slide 4: Function to Create Courses:
+
+The create_courses() function enables users to input course details interactively.
+Users are prompted to enter the number of courses and their names and instructors.
+Instances of the Course class are created based on the provided input.
+Error handling could be implemented to validate user input for course names and instructor names.
+Slide 5: Enrolling Students in Courses:
+
+Students are enrolled in courses interactively after both students and courses have been created.
+The system prompts users to indicate whether each student wants to enroll in each course.
+The add_course() method of the Student class is used to enroll students in courses.
+The process ensures flexibility and adaptability by allowing dynamic enrollment based on user preferences.
+Slide 6: Displaying Student Information:
+
+The system displays detailed information about each student, including their name, roll number, age, and enrolled courses.
+The display_info() method of the Student class is utilized to present student information.
+The presentation could include a sample output demonstrating how student information is formatted and presented.
+Flexibility is maintained, allowing for easy extension and customization of the display format.
